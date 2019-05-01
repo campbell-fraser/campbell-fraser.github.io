@@ -29,23 +29,7 @@ body {
     100%      {background: #ffcccc;}
     }
 
-.container {
-    height: 100px;
-    width: 50%;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -1rem;
-    margin-left: -1rem;
-}
-
 .list-unstyled {
     padding-left: 0;
     list-style: none;
-}
-
-.space-below {
-    margin-bottom: 1.5rem!important;
 }
