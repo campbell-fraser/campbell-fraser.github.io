@@ -28,6 +28,14 @@ body {
     87.5%     {background: #ffccf4;}
     100%      {background: #ffcccc;}
     }
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
 .dropbtn {
     background-color: rgb(140, 224, 250);
     color: white;
@@ -48,8 +56,17 @@ body {
     min-width: 160px;
 }
 
+.dropdown-content li {
+    position: relative;
+}
+
 .dropdown-content a {
     display: block;
+    position: absolute;
+    top: 0;
+    background: white;
+    width: 100%;
+    padding: 5px 10px;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
