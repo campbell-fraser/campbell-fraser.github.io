@@ -34,12 +34,6 @@ body {
     list-style: none;
 }
 
-.table-bottom {
-    position: absolute;
-    bottom:10px;
-    left:10px;
-}
-
 .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -58,4 +52,9 @@ body {
 .fa {
     padding: 10px;
     border-radius: 50%;
+}
+
+#bottom-div {
+    position: relative;
+    bottom: 10px;
 }
