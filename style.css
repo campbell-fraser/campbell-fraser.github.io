@@ -33,3 +33,29 @@ body {
     padding-left: 0;
     list-style: none;
 }
+
+.table-bottom {
+    position: absolute;
+    bottom:10px;
+    left:10px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa {
+    padding: 10px;
+    border-radius: 50%;
+}
